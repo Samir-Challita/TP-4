@@ -10,3 +10,11 @@ int factorielle(int a) {
 	}
 	return r;
 }
+//Or
+/*int factorielle(int a) {
+	int n;
+	for (n = 1 ; a > 0; a--) {
+		n = n * a;
+	}
+	return n;
+}*/
