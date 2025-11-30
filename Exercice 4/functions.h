@@ -9,3 +9,14 @@ int suite_ar(int a) {
 	}
 	return U0;
 }
+//Or
+/*int suite_arit(int n) {
+	const int R = 2;
+	int U = 5;
+	for (int a = 0; a < n; a++) {
+		U = U + R;
+	}
+	cout << "U" << n << "+1 = U" << n << " + 2 = ";
+	return U;
+}
+*/
