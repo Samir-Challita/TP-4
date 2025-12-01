@@ -2,8 +2,8 @@
 #include <cmath>
 using namespace std;
 
-int long factorielle(int a) {
-	int r = 1;
+long long factorielle(int a) {
+	long long r = 1;
 	if (a == 0)
 		r = 1;
 	for (int i = 1; i <= a; i++) {
@@ -12,18 +12,18 @@ int long factorielle(int a) {
 	return r;
 }
  
-double long puissance(double a, int b) {
-	int r = 1;
+long double puissance(double a, int b) {
+	long double r = 1;
 	for (int i = 1; i <= b; i++) {
 		r = r * a;
 	}
 	return r;
 }
 
-double long exponentielle(double a, double b) {
-	double x = 0;
+long double exponentielle(int a, int b) {
+	long double x = 0;
 	for (int i = 0; i <= b; i++) {
-		x = x + (puissance(a, i) / factorielle(i));
+		x += puissance(a, i) / factorielle(i);
 	}
 	return x;
 }
