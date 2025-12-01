@@ -3,7 +3,8 @@
 using namespace std;
 
 int main() {
-	int n, x;
+	int n;
+	long double x;
 	cout <<"Pour calculer e^x entrer l'exposon x et n pour avoir une une valeur plus proche et convenable"
 		<<" (Plus que n et grande plus que la valeur de l'exposon est proche): \n"<<"Entrer n = ";
 	cin >> n;
