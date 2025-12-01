@@ -6,7 +6,8 @@ int miroir(int a) {
 	while (a != 0) {
 		r = a % 10;
 		mir = mir * 10 + r;
-		a = a / 10;
+		a /= 10;
 	}
 	return mir;
+
 }
