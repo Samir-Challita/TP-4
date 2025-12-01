@@ -7,7 +7,7 @@ long long factorielle(int a) {
 	if (a == 0)
 		r = 1;
 	for (int i = 1; i <= a; i++) {
-		r = r * i;
+		r *= i;
 	}
 	return r;
 }
@@ -15,7 +15,7 @@ long long factorielle(int a) {
 long double puissance(double a, int b) {
 	long double r = 1;
 	for (int i = 1; i <= b; i++) {
-		r = r * a;
+		r *= a;
 	}
 	return r;
 }
@@ -27,3 +27,4 @@ long double exponentielle(int a, int b) {
 	}
 	return x;
 }
+
